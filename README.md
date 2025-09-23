@@ -155,38 +155,42 @@
 <div align="center">
 
 ```mermaid
+%%{init: {
+  "mindmap": {
+    "theme": "base",
+    "themeVariables": {
+      "primaryColor": "#4A90E2",
+      "primaryTextColor": "#FFFFFF",
+      "primaryBorderColor": "#2E7BD1",
+      "lineColor": "#2E7BD1",
+      "secondaryColor": "#28A745",
+      "tertiaryColor": "#FD7E14",
+      "background": "#F8F9FA",
+      "mainBkg": "#4A90E2",
+      "secondBkg": "#28A745",
+      "tertiaryBkg": "#FD7E14",
+      "quartBkg": "#DC3545"
+    }
+  }
+}}%%
 mindmap
-  root((AI Engineering))
-    GenAI
-      LLMs
-      RAG Systems
-      Prompt Engineering
-    Computer Vision
-      Multi-modal AI
-      Object Detection
-      Image Processing
-    MLOps
-      Model Deployment
-      Pipeline Automation
-      Cloud Scaling
-    Research
-      Fine-tuning
-      Architecture Design
-      Performance Optimization
-
-%%{init: {'mindmap': {'theme': 'base', 'themeVariables': {
-  'primaryColor': '#2E8B57',
-  'primaryTextColor': '#FFFFFF',
-  'primaryBorderColor': '#1A5F3F',
-  'lineColor': '#4A90E2',
-  'secondaryColor': '#FF6B6B',
-  'tertiaryColor': '#4ECDC4',
-  'background': '#F8F9FA',
-  'mainBkg': '#2E8B57',
-  'secondBkg': '#4A90E2',
-  'tertiaryBkg': '#FF6B6B',
-  'quartBkg': '#4ECDC4'
-}}}}%%
+  root((🤖 AI Engineering))
+    🧠 GenAI
+      💬 LLMs
+      🔍 RAG Systems
+      ✨ Prompt Engineering
+    👁️ Computer Vision
+      🎯 Multi-modal AI
+      🔍 Object Detection
+      🖼️ Image Processing
+    ⚙️ MLOps
+      🚀 Model Deployment
+      🔄 Pipeline Automation
+      ☁️ Cloud Scaling
+    🔬 Research
+      🎯 Fine-tuning
+      🏗️ Architecture Design
+      ⚡ Performance Optimization
 ```
 
 </div>
