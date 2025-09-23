@@ -153,45 +153,63 @@
 ## 🎯 Current Focus
 
 <div align="center">
-
-```mermaid
-%%{init: {
-  "mindmap": {
-    "theme": "base",
-    "themeVariables": {
-      "primaryColor": "#4A90E2",
-      "primaryTextColor": "#FFFFFF",
-      "primaryBorderColor": "#2E7BD1",
-      "lineColor": "#2E7BD1",
-      "secondaryColor": "#28A745",
-      "tertiaryColor": "#FD7E14",
-      "background": "#F8F9FA",
-      "mainBkg": "#4A90E2",
-      "secondBkg": "#28A745",
-      "tertiaryBkg": "#FD7E14",
-      "quartBkg": "#DC3545"
-    }
-  }
-}}%%
-mindmap
-  root((🤖 AI Engineering))
-    🧠 GenAI
-      💬 LLMs
-      🔍 RAG Systems
-      ✨ Prompt Engineering
-    👁️ Computer Vision
-      🎯 Multi-modal AI
-      🔍 Object Detection
-      🖼️ Image Processing
-    ⚙️ MLOps
-      🚀 Model Deployment
-      🔄 Pipeline Automation
-      ☁️ Cloud Scaling
-    🔬 Research
-      🎯 Fine-tuning
-      🏗️ Architecture Design
-      ⚡ Performance Optimization
-```
+  <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 20px; margin: 20px 0;">
+    <div style="background: rgba(255,255,255,0.95); border-radius: 15px; padding: 25px;">
+      
+      <!-- Central Hub -->
+      <div style="text-align: center; margin-bottom: 25px;">
+        <div style="background: linear-gradient(45deg, #4A90E2, #357ABD); color: white; padding: 15px 25px; border-radius: 50px; display: inline-block; font-weight: bold; font-size: 18px; box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);">
+          🤖 AI Engineering
+        </div>
+      </div>
+      
+      <!-- Four Main Areas -->
+      <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-top: 25px;">
+        
+        <!-- GenAI -->
+        <div style="background: linear-gradient(45deg, #28A745, #20C997); color: white; padding: 15px; border-radius: 12px; min-width: 200px; text-align: center; box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);">
+          <div style="font-weight: bold; font-size: 16px; margin-bottom: 10px;">🧠 GenAI</div>
+          <div style="font-size: 13px; line-height: 1.6;">
+            💬 LLMs<br>
+            🔍 RAG Systems<br>
+            ✨ Prompt Engineering
+          </div>
+        </div>
+        
+        <!-- Computer Vision -->
+        <div style="background: linear-gradient(45deg, #FD7E14, #FF6B35); color: white; padding: 15px; border-radius: 12px; min-width: 200px; text-align: center; box-shadow: 0 4px 15px rgba(253, 126, 20, 0.3);">
+          <div style="font-weight: bold; font-size: 16px; margin-bottom: 10px;">👁️ Computer Vision</div>
+          <div style="font-size: 13px; line-height: 1.6;">
+            🎯 Multi-modal AI<br>
+            🔍 Object Detection<br>
+            🖼️ Image Processing
+          </div>
+        </div>
+        
+        <!-- MLOps -->
+        <div style="background: linear-gradient(45deg, #6F42C1, #8E44AD); color: white; padding: 15px; border-radius: 12px; min-width: 200px; text-align: center; box-shadow: 0 4px 15px rgba(111, 66, 193, 0.3);">
+          <div style="font-weight: bold; font-size: 16px; margin-bottom: 10px;">⚙️ MLOps</div>
+          <div style="font-size: 13px; line-height: 1.6;">
+            🚀 Model Deployment<br>
+            🔄 Pipeline Automation<br>
+            ☁️ Cloud Scaling
+          </div>
+        </div>
+        
+        <!-- Research -->
+        <div style="background: linear-gradient(45deg, #DC3545, #E74C3C); color: white; padding: 15px; border-radius: 12px; min-width: 200px; text-align: center; box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);">
+          <div style="font-weight: bold; font-size: 16px; margin-bottom: 10px;">🔬 Research</div>
+          <div style="font-size: 13px; line-height: 1.6;">
+            🎯 Fine-tuning<br>
+            🏗️ Architecture Design<br>
+            ⚡ Performance Optimization
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 </div>
 
