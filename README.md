@@ -152,66 +152,107 @@
 
 ## 🎯 Current Focus
 
-<div align="center">
-  <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 20px; margin: 20px 0;">
-    <div style="background: rgba(255,255,255,0.95); border-radius: 15px; padding: 25px;">
-      
-      <!-- Central Hub -->
-      <div style="text-align: center; margin-bottom: 25px;">
-        <div style="background: linear-gradient(45deg, #4A90E2, #357ABD); color: white; padding: 15px 25px; border-radius: 50px; display: inline-block; font-weight: bold; font-size: 18px; box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);">
-          🤖 AI Engineering
-        </div>
-      </div>
-      
-      <!-- Four Main Areas -->
-      <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-top: 25px;">
-        
-        <!-- GenAI -->
-        <div style="background: linear-gradient(45deg, #28A745, #20C997); color: white; padding: 15px; border-radius: 12px; min-width: 200px; text-align: center; box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);">
-          <div style="font-weight: bold; font-size: 16px; margin-bottom: 10px;">🧠 GenAI</div>
-          <div style="font-size: 13px; line-height: 1.6;">
-            💬 LLMs<br>
-            🔍 RAG Systems<br>
-            ✨ Prompt Engineering
-          </div>
-        </div>
-        
-        <!-- Computer Vision -->
-        <div style="background: linear-gradient(45deg, #FD7E14, #FF6B35); color: white; padding: 15px; border-radius: 12px; min-width: 200px; text-align: center; box-shadow: 0 4px 15px rgba(253, 126, 20, 0.3);">
-          <div style="font-weight: bold; font-size: 16px; margin-bottom: 10px;">👁️ Computer Vision</div>
-          <div style="font-size: 13px; line-height: 1.6;">
-            🎯 Multi-modal AI<br>
-            🔍 Object Detection<br>
-            🖼️ Image Processing
-          </div>
-        </div>
-        
-        <!-- MLOps -->
-        <div style="background: linear-gradient(45deg, #6F42C1, #8E44AD); color: white; padding: 15px; border-radius: 12px; min-width: 200px; text-align: center; box-shadow: 0 4px 15px rgba(111, 66, 193, 0.3);">
-          <div style="font-weight: bold; font-size: 16px; margin-bottom: 10px;">⚙️ MLOps</div>
-          <div style="font-size: 13px; line-height: 1.6;">
-            🚀 Model Deployment<br>
-            🔄 Pipeline Automation<br>
-            ☁️ Cloud Scaling
-          </div>
-        </div>
-        
-        <!-- Research -->
-        <div style="background: linear-gradient(45deg, #DC3545, #E74C3C); color: white; padding: 15px; border-radius: 12px; min-width: 200px; text-align: center; box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);">
-          <div style="font-weight: bold; font-size: 16px; margin-bottom: 10px;">🔬 Research</div>
-          <div style="font-size: 13px; line-height: 1.6;">
-            🎯 Fine-tuning<br>
-            🏗️ Architecture Design<br>
-            ⚡ Performance Optimization
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-</div>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .center-node { fill: #0969da; stroke: #0550ae; stroke-width: 2; }
+      .center-text { fill: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial; font-size: 16px; font-weight: 600; text-anchor: middle; dominant-baseline: middle; }
+      .branch-node { fill: #f6f8fa; stroke: #d1d9e0; stroke-width: 2; }
+      .branch-text { fill: #24292f; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial; font-size: 14px; font-weight: 600; text-anchor: middle; dominant-baseline: middle; }
+      .leaf-node { fill: #ffffff; stroke: #d1d9e0; stroke-width: 1.5; }
+      .leaf-text { fill: #656d76; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial; font-size: 12px; text-anchor: middle; dominant-baseline: middle; }
+      .connection { stroke: #d1d9e0; stroke-width: 2; fill: none; }
+      .genai { stroke: #1f883d; }
+      .vision { stroke: #bc4c00; }
+      .mlops { stroke: #8250df; }
+      .research { stroke: #cf222e; }
+    </style>
+  </defs>
+  
+  <!-- Connection Lines -->
+  <!-- Center to main branches -->
+  <line class="connection" x1="400" y1="300" x2="200" y2="150" />
+  <line class="connection" x1="400" y1="300" x2="600" y2="150" />
+  <line class="connection" x1="400" y1="300" x2="200" y2="450" />
+  <line class="connection" x1="400" y1="300" x2="600" y2="450" />
+  
+  <!-- GenAI connections -->
+  <line class="connection genai" x1="200" y1="150" x2="120" y2="80" />
+  <line class="connection genai" x1="200" y1="150" x2="280" y2="80" />
+  <line class="connection genai" x1="200" y1="150" x2="200" y2="200" />
+  
+  <!-- Computer Vision connections -->
+  <line class="connection vision" x1="600" y1="150" x2="520" y2="80" />
+  <line class="connection vision" x1="600" y1="150" x2="680" y2="80" />
+  <line class="connection vision" x1="600" y1="150" x2="600" y2="200" />
+  
+  <!-- MLOps connections -->
+  <line class="connection mlops" x1="200" y1="450" x2="120" y2="520" />
+  <line class="connection mlops" x1="200" y1="450" x2="280" y2="520" />
+  <line class="connection mlops" x1="200" y1="450" x2="200" y2="400" />
+  
+  <!-- Research connections -->
+  <line class="connection research" x1="600" y1="450" x2="520" y2="520" />
+  <line class="connection research" x1="600" y1="450" x2="680" y2="520" />
+  <line class="connection research" x1="600" y1="450" x2="600" y2="400" />
+  
+  <!-- Central Node -->
+  <ellipse class="center-node" cx="400" cy="300" rx="85" ry="35" />
+  <text class="center-text" x="400" y="300">AI Engineering</text>
+  
+  <!-- Main Branch Nodes -->
+  <ellipse class="branch-node genai" cx="200" cy="150" rx="65" ry="25" />
+  <text class="branch-text" x="200" y="150">GenAI</text>
+  
+  <ellipse class="branch-node vision" cx="600" cy="150" rx="80" ry="25" />
+  <text class="branch-text" x="600" y="150">Computer Vision</text>
+  
+  <ellipse class="branch-node mlops" cx="200" cy="450" rx="50" ry="25" />
+  <text class="branch-text" x="200" y="450">MLOps</text>
+  
+  <ellipse class="branch-node research" cx="600" cy="450" rx="60" ry="25" />
+  <text class="branch-text" x="600" y="450">Research</text>
+  
+  <!-- GenAI Leaf Nodes -->
+  <ellipse class="leaf-node genai" cx="120" cy="80" rx="35" ry="18" />
+  <text class="leaf-text" x="120" y="80">LLMs</text>
+  
+  <ellipse class="leaf-node genai" cx="280" cy="80" rx="55" ry="18" />
+  <text class="leaf-text" x="280" y="80">RAG Systems</text>
+  
+  <ellipse class="leaf-node genai" cx="200" cy="200" rx="75" ry="18" />
+  <text class="leaf-text" x="200" y="200">Prompt Engineering</text>
+  
+  <!-- Computer Vision Leaf Nodes -->
+  <ellipse class="leaf-node vision" cx="520" cy="80" rx="65" ry="18" />
+  <text class="leaf-text" x="520" y="80">Multi-modal AI</text>
+  
+  <ellipse class="leaf-node vision" cx="680" cy="80" rx="70" ry="18" />
+  <text class="leaf-text" x="680" y="80">Object Detection</text>
+  
+  <ellipse class="leaf-node vision" cx="600" cy="200" rx="75" ry="18" />
+  <text class="leaf-text" x="600" y="200">Image Processing</text>
+  
+  <!-- MLOps Leaf Nodes -->
+  <ellipse class="leaf-node mlops" cx="120" cy="520" rx="75" ry="18" />
+  <text class="leaf-text" x="120" y="520">Model Deployment</text>
+  
+  <ellipse class="leaf-node mlops" cx="280" cy="520" rx="80" ry="18" />
+  <text class="leaf-text" x="280" y="520">Pipeline Automation</text>
+  
+  <ellipse class="leaf-node mlops" cx="200" cy="400" rx="65" ry="18" />
+  <text class="leaf-text" x="200" y="400">Cloud Scaling</text>
+  
+  <!-- Research Leaf Nodes -->
+  <ellipse class="leaf-node research" cx="520" cy="520" rx="50" ry="18" />
+  <text class="leaf-text" x="520" y="520">Fine-tuning</text>
+  
+  <ellipse class="leaf-node research" cx="680" cy="520" rx="80" ry="18" />
+  <text class="leaf-text" x="680" y="520">Architecture Design</text>
+  
+  <ellipse class="leaf-node research" cx="600" cy="400" rx="95" ry="18" />
+  <text class="leaf-text" x="600" y="400">Performance Optimization</text>
+</svg>
 
 ---
 
