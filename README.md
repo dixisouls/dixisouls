@@ -158,7 +158,7 @@
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Site-blue?style=for-the-badge)](https://divyapanchal.com/)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Let's_Connect-blue?style=for-the-badge)](https://www.linkedin.com/in/divya-m-panchal/)
-[![Email](https://img.shields.io/badge/📧_Email-Get_In_Touch-red?style=for-the-badge)](mailto:dmpanchal.201@gmail.com)
+[![Email](https://img.shields.io/badge/📧_Email-Get_In_Touch-red?style=for-the-badge)](mailto:divya@divyapanchal.com)
 
 ---
 
